@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+h3 {
+    font-family: 'Shantell Sans', cursive;
+    
+}
+.anclas {
+font-weight: 400;
+}
+
+.anclas:hover{
+    text-decoration: underline;
+}
+
+.imgCarousel{
+    height: 550px;
+    object-fit: cover;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+ 
