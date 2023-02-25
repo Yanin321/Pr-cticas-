@@ -2,129 +2,204 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diseño UX/UI</title>
-    <!--Link css de Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <!--Link mi estilo-->
-    <link rel="stylesheet" href="css/estilo.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diseño UX/UI</title>
+  <!--Link css de Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!--Link mi estilo-->
+  <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 <body class="container-fluid">
-    <!--Header-->
-    <header>
-        <!--navbar-->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="Index.html">
-                    <h3>UX/UI México</h3>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link anclas" aria-current="page" href="#">Home</a>
-                        </li>
+  <!--Header-->
+  <header>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Index.html">
+          <h3>UX/UI México</h3>
+        </a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle anclas" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Literatura
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="literaturaUX.html">UX</a></li>
-                                <li><a class="dropdown-item" href="#">UI</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle anclas " href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Literatura
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="literaturaUX.html">UX</a></li>
+                <li><a class="dropdown-item" href="#">UI</a></li>
 
-                            </ul>
-                        </li>
+              </ul>
+            </li>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle anclas" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Formación
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">UX/UI desde cero</a></li>
-                                <li><a class="dropdown-item" href="#">Introducción al UX Writing</a></li>
-                                <li><a class="dropdown-item" href="#">UX Research</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link anclas" href="#">Podcast</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link anclas" href="#">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!--finNavBar-->
-    </header>
-    <!--section-->
-    <section>
-        <!--Carousel-->
-        <div id="carouselExampleDark" class="carousel carousel-dark slide">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="img/slide11.jpg" class="d-block w-100 imgCarousel" alt="escritorio">
-                    <div class="carousel-caption d-none d-md-block ">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="img/slide22.jpg" class="d-block w-100 imgCarousel" alt="no recuerdo">
-                    <div class="carousel-caption d-none d-md-block ">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/slide33.jpg" class="d-block w-100 imgCarousel" alt="mmm">
-                    <div class="carousel-caption d-none d-md-block box">
-                        <h3>PRUEBA</h3>
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle anclas" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Formación
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">UX/UI desde cero</a></li>
+                <li><a class="dropdown-item" href="#">Introducción al UX Writing</a></li>
+                <li><a class="dropdown-item" href="#">UX Research</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link anclas" href="#">Podcast</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link anclas" href="#">Contacto</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+    <!--finNavBar-->
+  </header>
+  <!--main-->
+  <main>
+    <!--Carousel-->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/slide11.jpg" class="imgCarousel">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Fundamentos del UX</h1>
+              <p>Este es tu camino hacia una carrera en diseño UX. En este programa, aprenderá habilidades en demanda
+                que lo prepararán para el trabajo en menos de 6 meses. No se requiere título ni experiencia.</p>
+              <p><a class="btn btn-lg btn-primary boton" href="#">Quiero saber más</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide22.jpg" class="imgCarousel">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Literatura</h1>
+              <p>Descubre artículos, literatura que te servirán para ampliar tu conocimiento, todo en tu idioma.</p>
+              <p><a class="btn btn-lg btn-primary boton" href="#">Ver más</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide33.jpg" class="imgCarousel">
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>¿Cómo ganar experiencia en UX?</h1>
+              <p>Podcast. Acabas de terminar un curso de UX, ves un anuncio de empleo que dice "Buscamos UX Designer jr
+                con experiencia de 1 año. Ok pero para ganar experiencia necesito un empleo..</p>
+              <p><a class="btn btn-lg btn-primary boton" href="#">Quiero escuchar el podcast</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-    </section>
+
+    <!-- START THE FEATURETTES -->
+    <div class="container marketing mt-5">
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading mt-5">Bienvenido al mundo de Diseño de Experiencias de Usuario </h2>
+          <p class="lead">Somos una comunidad de Diseño Experiencias de Usuario (UX/UI). Aquí encontrarás conocimiento,
+            herramientas, cursos, bootcamps, entre otras. Esto te permitirá explorar el mundo del diseño UX.
+
+            Si tú ya eres experto nos encantaría ofrecerte un espacio para que compartas tu conocimiento con el mundo.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img src="img/imagen2.png" class="img-fluid mx-auto" alt="app">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <p class="featurette-heading mt-5 lead">"No es suficiente que construyamos productos que funcionen, que sean
+            comprensibles y utilizables, también necesitamos crear productos que brinden alegría y entusiasmo, placer y
+            diversión, y sí, belleza a la vida de las personas". Don Norman </p>
+
+        </div>
+        <div class="col-md-5 order-md-1">
+
+          <img src="img/uxstory.jpg" class="img-fluid mx-auto" alt="ux">
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading mt-5">Forma parte de nuestra comunidad </h2>
+          <p class="lead">Recibe contenido exclusivo de la comunidad y participa.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="img/comunidad.jpg" class="img-fluid mx-auto" alt="comunidad">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+<!--Footer-->
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 ">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap" />
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-muted">&copy; 2023 UX/UI México</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="#"><img src="img/facebook.png"></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><img src="img/linkedin.png"></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><img src="img/spotify.png"></a></li>
+        </ul>
+      </footer>
+    </div>
+    <!--Fin-->
+  </main>
 
 
 
 
-    <!--Script de Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+  <!--Script de Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
