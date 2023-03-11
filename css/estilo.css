@@ -1,45 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+@import "https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap";
 h3 {
-    font-family: 'Shantell Sans', cursive;
-  
-    
+  font-family: "Shantell Sans", cursive;
 }
 
-.boton{
-    background-color: #ac46a1;
-    border-color: #ac46a1;
+.titulo {
+  text-align: center;
 }
 
-.boton:hover{
-    background-color: #893581;
-    border-color: #893581;
+/*Carrousel*/
+.boton {
+  background-color: #ac46a1;
+  border-color: #ac46a1;
+}
+.boton:hover {
+  background-color: #893581;
+  border-color: #893581;
 }
 
+.imgCarousel {
+  height: 550px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*Cards*/
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgcards {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+/*Formulario*/
+.formulario {
+  width: 400px;
+  margin: 0 auto;
+}
 
 .anclas {
-font-weight: 400;
-
+  font-weight: 400;
+}
+.anclas:hover {
+  text-decoration: underline;
 }
 
-.anclas:hover{
-    text-decoration: underline;
-}
-
-.imgCarousel{
-    height:550px;
-    width:100%;
-   
-    object-fit: cover;
-}
-
-.box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
- .imgcards{
-    width: 100%; 
-    height:250px;
-    object-fit: cover;
- }
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,14 @@
+/*Carrousel*/
+.boton {
+	background-color: $background-color_1;
+	border-color: $border-color_1;
+	&:hover {
+		background-color: $background-color_2;
+		border-color: $border-color_2;
+	}
+}
+.imgCarousel {
+	height: 550px;
+	width: 100%;
+	object-fit: cover;
+}
