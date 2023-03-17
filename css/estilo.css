@@ -36,6 +36,14 @@ h3 {
   object-fit: cover;
 }
 
+.cardsliteratura {
+  transition: all 2s;
+}
+
+.cardsliteratura:hover {
+  filter: opacity(30%);
+}
+
 /*Formulario*/
 .formulario {
   width: 400px;

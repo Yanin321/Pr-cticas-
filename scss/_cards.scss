@@ -11,3 +11,12 @@
 	height: 250px;
 	object-fit: cover;
 }
+.cardsliteratura{
+	
+	transition:all 2s;
+}
+
+.cardsliteratura:hover{
+
+	filter: opacity(30%);
+}
