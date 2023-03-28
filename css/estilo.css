@@ -44,6 +44,11 @@ h3 {
   filter: opacity(30%);
 }
 
+.imgpodcast {
+  width: 50px;
+  height: 50px;
+}
+
 /*Formulario*/
 .formulario {
   width: 400px;
